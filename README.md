@@ -8,6 +8,6 @@ Bitbucket export repositories list
 3) Посмотреть список URL repo_clone_urls.txt
 
 ## Контакты
-Name: Konstantin Eliseev K0r5hun
-Email: dev@wolq.net
+Name: Konstantin Eliseev K0r5hun    
+Email: dev@wolq.net    
 Url: https://korw.ru/
