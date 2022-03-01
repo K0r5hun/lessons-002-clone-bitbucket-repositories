@@ -14,7 +14,7 @@ do
 
   jq -r '.values[] | {slug:.slug, links:.links.clone[] } | select(.links.name=="ssh") | "git clone \(.links.href) \(.slug)"' repo_info.json >> repo_clone_urls.txt
   # Cloning repositories
-  # for repo in `repo_clone_urls`
+  # for repo in `repo_clone_urls.txt`
   # do
   #   echo "Cloning" ${repo}
   #   eval ${repo}
